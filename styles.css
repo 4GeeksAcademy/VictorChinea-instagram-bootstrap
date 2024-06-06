@@ -1,0 +1,16 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+.grid-image {
+    width: 100%;
+    height: 300px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+
+.position-fixed {
+    z-index: 1055;
+}

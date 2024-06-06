@@ -1,0 +1,37 @@
+body {
+    background-color: #fafafa;
+    font-family: Arial, sans-serif;
+}
+
+.grid-image {
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+}
+
+.card {
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.card-body {
+    background-color: white;
+}
+
+.actions i {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.likes, .caption, .comments {
+    font-size: 14px;
+}
+
+.comment strong {
+    margin-right: 5px;
+}
